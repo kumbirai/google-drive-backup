@@ -1,15 +1,8 @@
-# Byte-compiled / optimized / DLL files
+# Python
 __pycache__/
 *.py[cod]
 *$py.class
-
-# C extensions
 *.so
-
-# IDE Files
-.idea/
-
-# Distribution / packaging
 .Python
 build/
 develop-eggs/
@@ -23,10 +16,30 @@ parts/
 sdist/
 var/
 wheels/
-share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
+
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Project specific
+logs/
+*.log
+.env
+credentials.json
+token.json
+
+# Distribution / packaging
+share/python-wheels/
 MANIFEST
 
 # Unit test / coverage reports
@@ -56,5 +69,3 @@ ENV/
 env.bak/
 venv.bak/
 logs/app.log
-credentials.json
-token.json

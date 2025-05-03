@@ -2,6 +2,10 @@
 
 A Python application that backs up files and folders from your local system to Google Drive. The application maintains a clean backup by removing existing files in the destination before uploading new content.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
 ## Features
 
 - Backup both files and folders to Google Drive
