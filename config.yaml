@@ -1,0 +1,3 @@
+backup_paths:
+  - source: "/home/kumbi/Dev/Python/daily-reading-bot/files"
+    destination: "Backup/daily-reading-bot/files"
